@@ -63,7 +63,7 @@ const Main = () => {
                   How can I help you today?
                 </p>
               </div>
-              <div className="main__cardContainer   flex flex-wrap">
+              <div className="main__cardContainer flex flex-wrap sm:gap-4">
                 {cardsData.map((e, i) => {
                   return <Card e={e} key={i} />;
                 })}
