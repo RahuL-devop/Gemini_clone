@@ -26,7 +26,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <div className="sidebar inline-flex min-h-[100vh] cursor-pointer flex-col justify-between bg-[#f0f4f9] p-2 text-[1vw] font-[100]">
+      <div className="sidebar hidden min-h-[100vh] cursor-pointer flex-col justify-between bg-[#f0f4f9] p-2 text-[1vw] font-[100]   md:inline-flex">
         <div className="sidebar__top">
           <img
             onClick={() => toogleMenu()}

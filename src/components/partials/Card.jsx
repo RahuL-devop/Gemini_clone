@@ -15,10 +15,10 @@ const Card = ({ e }) => {
     <>
       <div
         onClick={() => cardClick()}
-        className="main__card relative mt-16 h-[12.5rem] w-[12.5rem] cursor-pointer items-center overflow-hidden rounded-lg bg-[#f0f4f9] p-[2vw] text-black hover:bg-slate-300/60"
+        className="main__card relative mt-4 h-[10rem] w-[12.5rem] cursor-pointer items-center overflow-hidden rounded-lg bg-[#f0f4f9] p-[4vw] text-black hover:bg-slate-300/60 sm:mt-16 sm:h-[12.5rem] sm:p-[2vw]"
       >
         <div className="card__title">
-          <p className="text-[1vw] font-[400] capitalize  leading-tight tracking-[0.5px]">
+          <p className="text-[4.5vw] font-[400] capitalize leading-tight tracking-[0.5px] sm:text-[1vw]">
             {e.description}
           </p>
           <div className="card__image">
