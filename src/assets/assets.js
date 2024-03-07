@@ -1,0 +1,15 @@
+export { default as history_icon } from "./history_icon.png";
+export { default as menu_icon } from "./menu_icon.png";
+export { default as plus_icon } from "./plus_icon.png";
+export { default as question_icon } from "./question_icon.png";
+export { default as setting_icon } from "./setting_icon.png";
+export { default as bulb_icon } from "./bulb_icon.png";
+export { default as compass_icon } from "./compass_icon.png";
+export { default as gallery_icon } from "./gallery_icon.png";
+export { default as mic_icon } from "./mic_icon.png";
+export { default as user_icon } from "./user_icon.png";
+export { default as youtube_icon } from "./youtube_icon.png";
+export { default as message_icon } from "./message_icon.png";
+export { default as send_icon } from "./send_icon.png";
+export { default as gemini_icon } from "./gemini_icon.png";
+export { default as code_icon } from "./code_icon.png";

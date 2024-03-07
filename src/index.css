@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+img {
+  cursor: pointer;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+}
+
+.main__cardContainer img,
+.bottomItems img {
+  width: 20px;
+}
+.main__container .container__greet span {
+  background: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.sidebar img {
+  width: 15px;
+}
+
+.result::-webkit-scrollbar {
+  display: none;
+}
+
+.loader hr:nth-child(1) {
+  height: 12px;
+  border-radius: 25px;
+  border: none;
+  background-color: #f6f7f8;
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #d16ba5,
+    #c777b9
+  );
+  background-size: 800px 50px;
+  animation: gradientAnimation 4s infinite linear;
+}
+.loader hr:nth-child(2) {
+  height: 12px;
+  border-radius: 25px;
+  border: none;
+  background-color: #f6f7f8;
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #d16ba5,
+    #c777b9
+  );
+  background-size: 800px 50px;
+  animation: gradientAnimation 3s infinite linear;
+}
+.loader hr:nth-child(3) {
+  height: 12px;
+  border-radius: 25px;
+  border: none;
+  background-color: #f6f7f8;
+  background-image: linear-gradient(
+    to right,
+    #d16ba5,
+    #c777b9,
+    #ba83ca,
+    #aa8fd8,
+    #9a9ae1,
+    #8aa7ec,
+    #d16ba5,
+    #c777b9
+  );
+  background-size: 800px 50px;
+  animation: gradientAnimation 2s infinite linear;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: -800px 0px;
+  }
+
+  100% {
+    background-position: 800px;
+  }
+}
